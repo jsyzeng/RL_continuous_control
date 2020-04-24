@@ -28,10 +28,9 @@ The barrier for solving the second version of the environment is slightly differ
 
 After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
 This yields an average score for each episode (where the average is over all 20 agents).
-As an example, consider the plot below, where we have plotted the average score (over all 20 agents) obtained with each episode.
+As an example, consider the plot below, where we have plotted the average score (over all 20 agents) obtained with each episode. Below is a plot of average scores (over all agents) with each episode.
 
-![alt text](https://video.udacity-data.com/topher/2018/July/5b48f845_unknown/unknown.png "Logo Title Text 1")
-Plot of average scores (over all agents) with each episode.
+![alt text](https://video.udacity-data.com/topher/2018/July/5b48f845_unknown/unknown.png "average scores over all agents with each episode.")
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. In the case of the plot above, the environment was solved at episode 63, since the average of the average scores from episodes 64 to 163 (inclusive) was greater than +30.
 
